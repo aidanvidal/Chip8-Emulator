@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     // Initialize OpenGL and create a window
     initGraphics();
 
-    // Target frame duration for 60Hz (in microseconds)
+    // Target frame duration for 120Hz (in microseconds)
     const int frame_duration = 1000000 / 120;
 
     // Main emulation loop
