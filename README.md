@@ -1,4 +1,3 @@
-```markdown
 # CHIP-8 Emulator
 
 ## Description
@@ -69,7 +68,7 @@ To build and run the CHIP-8 emulator, you need to have the following installed o
 3. **Exiting the Emulator**: Press the `ESC` key to close the emulator window.
 
 ## ROMS
-There are some ROMs included but I did not make any of them. Here is a (link to the repo)[https://github.com/kripod/chip8-roms/tree/master] 
+There are some ROMs included but I did not make any of them. Here is a [link to the repo!](https://github.com/kripod/chip8-roms/tree/master)
 
 ## Dependencies
 - **OpenGL**: A cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics.
@@ -78,8 +77,6 @@ There are some ROMs included but I did not make any of them. Here is a (link to 
 
 ## Additional Information
 - The emulator initializes the CHIP-8 system, loads a program into memory, and executes it in a loop until the user closes the window.
+- The CHIP-8 system is designed to run at 60Hz, but in the main.c I have it set at 120Hz because it is more fun.
 - The graphics are rendered in a 640x320 window, scaled from the original 64x32 CHIP-8 display for better visibility.
 - If you encounter errors while initializing the graphics, ensure that OpenGL, GLEW, and GLFW are correctly installed.
-
-Feel free to contribute to the project by submitting issues or pull requests!
-```
